@@ -5,7 +5,7 @@ import streamlit as st
 from babel.numbers import format_currency 
 
 # Import data yang sudah di siap pakai
-df = pd.read_csv("dashboard/main_data.csv")  
+df = pd.read_csv("./main_data.csv")  
 
 # Konversi kolom date ke dalam tipe data datetime
 df["date"] = pd.to_datetime(df["date"])
